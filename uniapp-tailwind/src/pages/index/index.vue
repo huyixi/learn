@@ -4,6 +4,7 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
+    <p class="text-red-500">Tailwindcss + uniapp</p>
   </view>
 </template>
 
