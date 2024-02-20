@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link href="./src/assets/output.css" rel="stylesheet">
     <script>
       var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
         CSS.supports('top: constant(a)'))
@@ -14,6 +15,9 @@
     <!--app-context-->
   </head>
   <body>
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     <div id="app"><!--app-html--></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

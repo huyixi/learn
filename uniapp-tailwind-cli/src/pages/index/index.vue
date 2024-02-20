@@ -1,5 +1,8 @@
 <template>
   <view class="content">
+    <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
